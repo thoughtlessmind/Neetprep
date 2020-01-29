@@ -1,2 +1,2 @@
-master branch contains the source codes and files.
-pages branch contains the build files.
+Master bracnch contains the sources files.
+Hosted version of this repo- https://neetprep-report.netlify.com/
