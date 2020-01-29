@@ -9,6 +9,7 @@
     "@material-ui/icons": "4.5.1",
     "react": "latest",
     "react-dom": "latest",
+    "react-helmet": "^5.2.1",
     "react-loading": "2.0.3",
     "react-router-dom": "5.1.2",
     "victory": "34.0.1"

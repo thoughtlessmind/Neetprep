@@ -1,11 +1,8 @@
 import React, {lazy, Suspense} from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import Score from "./Score";
+import {Helmet} from "react-helmet";
 import Appbar from "./Appbar";
-// import Section2 from "./Section2";
-// import Section3 from "./Section3";
 import Loader from './Loader'
-// import Suggestion from "./Suggestion";
 const Suggestion = lazy(()=>import('./Suggestion'))
 const Score = lazy(()=> import ('./Score'))
 const Section2 = lazy(()=> import ('./Section2'))
@@ -15,6 +12,11 @@ const Section3 = lazy(()=> import ('./Section3'))
 const App = () => {
   return (
     <Router>
+      <Helmet>
+        <meta charSet="utf-8"/>
+        <title>NeetPrep- Your first result</title>
+        <link rel="canonical" href="#"/>
+      </Helmet>
       <div
         style={{
           maxWidth: "400px",
