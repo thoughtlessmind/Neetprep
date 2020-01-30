@@ -24,7 +24,7 @@ const App = () => {
           marginLeft: "auto",
           marginRight: "auto",
           fontFamily: "Poppins",
-          height: '600px',
+          height: '700px',
           overflowY: 'scroll'
         }}
       >
